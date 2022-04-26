@@ -13,8 +13,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+/*.App-header {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,7 +25,13 @@
 
 .App-link {
   color: #61dafb;
-}
+}*/
+
+/********* Header Navigation********/
+/*#nav-main {
+  display: flex;
+  justify-content: space-around;
+}*/
 
 @keyframes App-logo-spin {
   from {
