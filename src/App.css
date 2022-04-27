@@ -12,27 +12,50 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-/*.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+  list-style: none;
+}
+li:hover {
+  cursor: pointer;
+}
+/***********/
+.cursor-pointer:hover {
+  cursor: pointer;
+}
+nav[id="paging"] {
+  margin: auto auto 20px auto;
 }
 
-.App-link {
-  color: #61dafb;
-}*/
+nav[id="paging"] button {
+  background-color: transparent;
+  border: 0;
+  font-size: 18px;
+  color: #405b40;
+  font-style: italic;
+  margin: 0 6px;
+}
 
-/********* Header Navigation********/
-/*#nav-main {
-  display: flex;
-  justify-content: space-around;
-}*/
+nav[id="paging"] button:disabled {
+  font-weight: 600;
+  font-style: normal;
+  color: #000;
+}
 
+nav[id="paging"] button:disabled:hover {
+  cursor: default;
+}
+
+nav[id="paging"] button:not(:disabled):hover {
+  text-decoration: underline;
+}
+
+nav[id="paging"] button.btn-paging,
+nav[id="paging"] span.btn-empty {
+  display: inline-block;
+  width: 100px;
+}
+
+/***********/
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

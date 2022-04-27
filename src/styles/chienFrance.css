@@ -10,3 +10,35 @@
 .dog img {
   height: 200px;
 }
+/*** pagination  ***/
+
+#dogs-list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  list-style: none;
+  cursor: pointer;
+}
+.pagination a {
+  padding: 10px;
+  margin-right: 5px;
+  border: 1px solid #2d5f7b;
+  border-radius: 5px;
+  color: #2d5f7b;
+}
+.pagination__link {
+  font-weight: bold;
+}
+.pagination__link__active a {
+  color: #fff;
+  background: #2d5f7b;
+}
+.pagination__link__disabled a {
+  color: rgb(198, 197, 202);
+  border: 1px solid rgb(198, 197, 202);
+}

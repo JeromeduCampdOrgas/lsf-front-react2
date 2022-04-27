@@ -36,7 +36,7 @@ function App() {
               <ChiensContext.Provider
                 value={{ chiens: chiens, setChiens: setChiens }}
               >
-                <ChiensFrance />
+                <ChiensFrance chiens={chiens} />
               </ChiensContext.Provider>
             }
           ></Route>
